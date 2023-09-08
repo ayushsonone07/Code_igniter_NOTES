@@ -1,5 +1,5 @@
 //<!---------------------------------------------------------JavaScript------------------------------------------------------------------------->
-<script>
+{/* <script> */}
 //------------Add Advocate Data-------------
 	function saveadv(){
 		var advname= $("#advname").val();
@@ -18,9 +18,9 @@
 		});
 	}
 	
-</script> 
+{/* </script>  */}
 
-<script> 
+{/* <script>  */}
 
 //----------------Search Advocate Data-------
 searchAdvocate()
@@ -98,4 +98,4 @@ var base_url = '<?php echo base_url(); ?>';
 		});
 	}
 	
-</script>
+{/* </script> */}

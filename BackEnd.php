@@ -1,3 +1,6 @@
+<?php
+class Test extends CI_Controller{
+
 /*-------------------------------Advocate Controler----------------------------------------------------------------------------------*/   
     public function advmst(){
         if ($this->ion_auth->logged_in()){
@@ -93,3 +96,4 @@
 		$json=array('adv_id' => $adv_id,'adv_name' => $adv_name,'adv_contact' => $adv_contact);
 		echo json_encode($json);
 	}
+}
